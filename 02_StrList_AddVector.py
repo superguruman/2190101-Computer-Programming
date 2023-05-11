@@ -1,0 +1,9 @@
+x=input().strip("[]").split(",")
+y=input().strip("[]").split(",")
+xm=list(map(float,x))
+ym=list(map(float,y))
+zm=[1, 1, 1]
+zm[0]=(xm[0]+ym[0])
+zm[1]=(xm[1]+ym[1])
+zm[2]=(xm[2]+ym[2])
+print(xm, '+', ym, '=', zm)
